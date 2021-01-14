@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_email"
+            android:title="@string/message_menu" />
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_person"
+            android:title="@string/person_menu" />
+    </group>
+    <item android:title="@string/communicate_menu">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share_menu" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic__send"
+                android:title="@string/send_menu" />
+        </menu>
+    </item>
+
+</menu>
